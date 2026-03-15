@@ -1,0 +1,17 @@
+[project]
+name = "ETL Pipeline"
+version = "0.1.0"
+description = "An ETL pipeline for data engineering tasks"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apache-airflow>=3.1.8",
+    "dotenv>=0.9.9",
+    "logging>=0.4.9.6",
+    "pandas>=3.0.1",
+    "path>=17.1.1",
+    "psycopg2-binary>=2.9.11",
+    "pylance>=2.0.1",
+    "sqlalchemy>=2.0.48",
+    "tornado==5.1.1",
+]
