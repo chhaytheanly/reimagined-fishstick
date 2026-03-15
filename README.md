@@ -22,7 +22,7 @@ A data engineering ETL pipeline for processing NVIDIA stock data, built with Pyt
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/chhaytheanly/reimagined-fishstick.git
 cd data_engineering
 ```
 
