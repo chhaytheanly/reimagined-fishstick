@@ -4,20 +4,20 @@ services:
 
   postgres:
     image: postgres:16
-    container_name: postgres_de
+    container_name: postgres_data
     restart: always
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin123
       POSTGRES_DB: etl_db
     ports:
-      - "5432:5432"
+      - "1234:5432"
     volumes:
       - postgres:/var/lib/postgresql/data
 
   pgadmin:
     image: dpage/pgadmin4
-    container_name: pgadmin_de
+    container_name: pgadmin_data
     restart: always
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@gmail.com
